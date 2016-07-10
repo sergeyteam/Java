@@ -1,0 +1,3220 @@
+body {
+	font-family: HelveticaNeueCyr-Light;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.main-menu {
+	border-top: 15px solid #006DE0;
+	text-align: center;
+}
+
+.main-menu div{
+	display: inline-block;
+}
+
+.logo-Global {
+	width: 30%;
+	margin: 20px 50px;
+}
+
+.logo-Global a>img {
+	width: 100%;
+}
+
+.main-menu .propose{
+	width: 30%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.main-menu .propose p{
+	margin: 0px;
+	font-size: 20px;
+}
+
+.main-menu .contacts{
+	width: 30%;
+	text-align: center;
+	vertical-align: middle;
+}
+.main-menu .contacts div{
+	margin: 0px 5px;
+}
+
+.main-menu .phones p{
+	font-size: 20px;
+	margin: 0px;
+}
+
+.main-menu .phones .phoneUs{
+	font-size: 18px;
+	margin: 0px;
+}
+div .propose {
+	background: #fafafa;
+}
+
+div .propose p {
+	font-size: 16px;
+	margin: 0px;
+}
+
+div .contacts div {
+	margin: 0px 5px;
+}
+div .fa {
+	font-size: 96px;
+	color: #FFB035;
+}
+.secMenu{
+	background: #68A9ED;
+	margin-bottom: 20px;
+}
+.content {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content .menu {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 35px;
+	padding: 0;
+}
+
+.content .menu li {
+	display: inline-block;
+	margin: 2px 10px;
+}
+
+.content .menu a {
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	color: #ffFfff;
+	padding: 6px 40px;
+	margin: 0 0%;
+}
+
+.content .menu a:hover {
+	color: #ffffff;
+	background: #FFB035;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.content .menu .active a {
+	background: rgb(249, 164, 33);
+	background: -moz-linear-gradient(top, rgba(249, 164, 33, 1) 0%, rgba(249, 164, 33, 1) 0%, rgba(248, 154, 33, 1) 23%, rgba(248, 154, 33, 1) 40%, rgba(242, 112, 35, 1) 100%);
+	background: -webkit-linear-gradient(top, rgba(249, 164, 33, 1) 0%, rgba(249, 164, 33, 1) 0%, rgba(248, 154, 33, 1) 23%, rgba(248, 154, 33, 1) 40%, rgba(242, 112, 35, 1) 100%);
+	background: linear-gradient(to bottom, rgba(249, 164, 33, 1) 0%, rgba(249, 164, 33, 1) 0%, rgba(248, 154, 33, 1) 23%, rgba(248, 154, 33, 1) 40%, rgba(242, 112, 35, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f9a421', endColorstr='#f27023', GradientType=0);
+	color: #ffffff;
+}
+
+.banner{
+	padding-bottom: 40px;
+	border-bottom: 15px solid #006DE0;
+}
+
+.banner #owl-demo .item .above-banner h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: PTSerif_Caption;
+	font-size: 65px;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	padding: 0px 100px;
+}
+
+.banner .owl-carousel .owl-wrapper-outer {
+	height: 640px;
+}
+
+.banner #owl-demo .banner1 {
+	background-image: url(../images/banner1.jpg);
+	height: 640px;
+	width: 80%;
+	margin: 0 auto;
+	background-size: cover;
+}
+.banner #owl-demo .banner2 {
+	background-image: url(../images/banner2.jpg);
+	background-size: cover;
+	background-position-y: -155px;
+	margin: 0 auto;
+	width: 80%;
+	height: 640px;
+}
+.banner #owl-demo .banner3 {
+	background-image: url(../images/banner3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 80%;
+	height: 640px;
+	margin: 0 auto;
+}
+
+.orrange-text {
+	color: #F48123;
+}
+
+.OurService {
+	background: #ffffff;
+	border-bottom: 15px solid #006DE0;
+}
+
+.content-1 {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.OurService .global-offers-H1 {
+	text-transform: uppercase;
+	font-family: PTSerif_Caption;
+	font-size: 41px;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.OurService .global-offers-p {
+	display: block;
+	text-align: center;
+	margin: 15px 0px;
+	font-size: 24px;
+	white-space: pre-line;
+}
+
+.OurService .infografic p {
+	display: inline-block;
+	text-align: center;
+	margin: 25px 5px;
+	color: #006EE2;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.OurService .infografic {
+	margin-top: 60px;
+	padding-bottom: 60px;
+}
+
+.OurService .infografic .price-label img{
+	width: 50%;
+}
+
+.OurService .picture {
+	display:inline-block;
+	width: 24%;
+	text-align: center;
+	vertical-align: middle;
+	height: 300px;
+}
+
+.OurService .infografic div .pict{height: 200px;}
+.OurService .infografic div .txt{
+	
+}
+
+.OurService img {
+	width: 45%;
+	margin-bottom: 50px;
+}
+
+.production .main-about {
+	text-transform: uppercase;
+	font-family: PTSerif_Caption;
+	font-size: 41px;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.production {
+	background: #ffffff;
+	border-bottom: 15px solid #006DE0;
+}
+
+.production .prod{
+	padding: 0px;
+}
+
+.production li {
+	display: inline-block;
+	width: 100%;
+	max-height: 450px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.production .prod div{
+	display: inline-block;
+	width: 22%;
+	vertical-align: middle;
+	margin: 0px 22px;
+}
+.production .foto {
+	/*height: 440px;*/
+}
+.production img {
+	width: 100%;
+}
+.production .discription {
+}
+
+.production .prod .discription {
+	padding:0;
+	border-spacing: 5px;
+	text-align: left;
+	width: 35%;
+}
+.production .prod .discription p{
+	margin: 0;
+	font-size: 18px;
+}
+.production .prod .price {
+	/* height: 130px; */
+	/* border: 10px solid #F48123; */
+	/* border-radius: 100px; */
+	padding: 22px 0px;
+	width: 24%;
+}
+
+.production .price p{
+	margin: 0px;
+	font-size: 50px;
+	text-align: center;
+	color: #F48123;
+	font-weight: bold;
+}
+
+.section-partners{
+	background: #ffffff;
+	border-bottom: 15px solid #006DE0;
+}
+.section-partners .title-of-block{
+	text-transform: uppercase;
+	font-family: PTSerif_Caption;
+	font-size: 41px;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+.section-partners .partner-carousel{
+	padding: 20px 0px;
+	padding-bottom: 70px;
+}
+
+.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item{
+	margin: 0px 0px;
+}
+.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div{
+	margin: 0px 0px;
+	padding: 0px 100px;
+	text-align: center;
+	height: 235px;
+}
+.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div img{
+	width: 100%;
+	height: 100%;
+}
+#owl-partners-id .item{
+	margin: 3px;
+}
+#owl-partners-id .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.container-parters{
+	margin-top: 75px;
+	padding-bottom: 75px;
+}
+
+.section-partners .content-1 .partner-carousel .owl-pagination .owl-page{
+	display: none;
+}
+
+.map-section {
+	margin: 0px 0px;
+	background: #ffffff;
+	border-bottom: 15px solid #006DE0;
+}
+
+.map-section .title-of-block {
+	text-transform: uppercase;
+	font-family: PTSerif_Caption;
+	font-size: 41px;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.map-section .contact-field {
+	display: inline-block;
+	width: 50%;
+	height: 250px;
+	vertical-align: text-bottom;
+}
+.map-section .contact-field .address, .map-section .contact-field .contacts{
+	display: inline-block;
+	width: 49%;
+}
+
+.map-section .contact-field .contacts .fa, .map-section .contact-field .contacts .phones{
+	display: inline-block;
+	padding: 0px 3%;
+	width: 65%;
+}
+.map-section #map {
+	height: 300px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+	border: 3px solid #006DE0;
+}
+
+.map-section .write-fild {
+	display: inline-block;
+	width: 49%;
+}
+.map-section .contact-field p{
+	font-size: 20px;
+}
+.map-section .contact-field .contacts .fa{
+		font-size: 80px;
+		display: inline-block;
+		width: 20%;
+}
+.footer {
+	background: #fafafa;
+	border-bottom: 15px solid #006DE0;
+	padding: 40px 0px;
+}
+.footer .content-1{
+	padding: 0px;
+}
+.footer .content-1 div{
+	display: inline-block;
+}
+
+.footer .content-1 .propose {
+	width: 33%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer .content-1 .propose p {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.footer .content-1 .contacts {
+	width: 33%;
+	text-align: center;
+	vertical-align: middle;
+}
+.footer .content-1 .contacts div {
+	margin: 0px 10px;
+}
+
+.footer .content-1 .phones p {
+	font-size: 20px;
+	margin: 0px;
+}
+
+.footer .content-1 .upper {
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+#toTop {
+	width: 100px;
+	text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom: 20px;
+	right: 20px;
+	cursor:pointer;
+	display:none;
+	color:#333;
+	font-size:11px;
+}
+#toTop .fa-arrow-circle-o-up{
+	color: #F48123;
+	opacity: 0.8;
+}
+#toOrderBy {
+	width: 270px;
+	text-align:center;
+	padding: 8px 5px;
+	position:fixed;
+	top: 20px;
+	right: 20px;
+	display: none;
+	font-family: verdana;
+	font-size: 16px;
+	background: #FAFAFA;
+	border: 1px solid #F3F3F3;
+	opacity: 0.8;
+}
+#toOrderBy p{
+	color: #000;
+	margin: 0px;
+}
+@media (max-width: 1500px) {
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		margin: 0px 0px;
+		padding: 0px 65px;
+		text-align: center;
+		height: 235px;
+	}
+}
+@media (max-width: 1441px) {
+	.content .menu {
+		display: inline-block;
+		list-style: none;
+		margin: 0px 0px;
+		padding: 0;
+	}
+	.production .prod .foto {
+	/*	height: 328px;*/
+		width: 19%;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 65px;
+		height: 220px;
+	}
+	.production .prod .discription p {
+		font-size: 16px;
+	}
+	.OurService .infografic p {
+		font-size: 18px;
+	}
+	.banner{
+		height: 645px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 605px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 620px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		background-position-y: -80px;
+		margin: 0 auto;
+		width: 80%;
+		height: 620px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 620px;
+	}
+}
+
+@media (max-width: 1371px) {
+	.content .menu {
+		display: inline-block;
+		list-style: none;
+		margin: 0px 2px;
+		padding: 0;
+	}
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 2px;
+	}
+	.production .prod .foto {
+	/*	height: 345px;*/
+		width: 18%;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 60px;
+		height: 225px;
+	}
+	.production .prod .discription p {
+		font-size: 16px;
+	}
+	.OurService .infografic p {
+		font-size: 18px;
+	}
+	.banner{
+		height: 510px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 475px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		background-position-y: -100px;
+		width: 80%;
+		margin: 0 auto;
+		height: 475px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		background-position-y: -160px;
+		margin: 0 auto;
+		width: 80%;
+		height: 475px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 475px;
+	}
+	.production .prod .discription {
+		padding: 0;
+		border-spacing: 5px;
+		text-align: left;
+		width: 36%;
+	}
+	.map-section .contact-field {
+	display: inline-block;
+	width: 60%;
+	height: 250px;
+	vertical-align: text-bottom;
+	}
+	.map-section .contact-field .address, .map-section .contact-field .contacts{
+		display: inline-block;
+		width: 49%;
+	}
+
+	.map-section .contact-field .contacts .fa, .map-section .contact-field .contacts .phones{
+		display: inline-block;
+		padding: 0px 3%;
+		width: 60%;
+	}
+	.map-section #map {
+		height: 300px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.map-section .write-fild {
+		display: inline-block;
+		width: 39%;
+	}
+	.map-section .contact-field p{
+		font-size: 20px;
+	}
+	.map-section .contact-field .contacts .fa{
+			font-size: 80px;
+			display: inline-block;
+			width: 20%;
+	}
+	#toOrderBy {
+		width: 220px;
+		text-align: center;
+		padding: 8px 5px;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		display: none;
+		font-family: verdana;
+		font-size: 15px;
+		background: #FAFAFA;
+		border: 1px solid #F3F3F3;
+		opacity: 0.8;
+	}
+}
+
+@media (max-width: 1340px) {
+	.main-menu .phones p {
+		font-size: 20px;
+		margin: 0px;
+	}
+	.main-menu .phones .phoneUs {
+		font-size: 18px;
+		margin: 0px;
+	}
+	.production .prod .foto {
+		/*height: 325px;*/
+		width: 20%;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 60px;
+		height: 225px;
+	}
+	.production .prod .discription p {
+		font-size: 16px;
+	}
+	.OurService .infografic p {
+		font-size: 18px;
+	}
+	.banner{
+		height: 510px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 475px;
+	}
+}
+
+@media (max-width: 1295px) {
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 2px;
+	}
+	.content .menu a {
+		display: block;
+		font-size: 20px;
+		text-align: center;
+		color: #ffFfff;
+		padding: 6px 30px;
+		margin: 0 0%;
+	}
+}
+
+@media (max-width: 1280px) {
+	.content .menu {
+		display: inline-block;
+		list-style: none;
+		margin: 0px 35px;
+		padding: 0;
+	}
+	.content .menu li {
+		display: inline-block;
+		margin: 0;
+	}
+	.content .menu a {
+		font-size: 18px;
+		padding: 6px 25px;
+	}
+	.banner{
+		height: 615px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 575px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		height: 575px;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		margin: 0 auto;
+		width: 80%;
+		height: 575px;
+		background-position-y: -70px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 80%;
+		height: 575px;
+		margin: 0 auto;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 56px;
+		text-align: center;
+		position: relative;
+		top: 200px;
+		padding: 0px 30px;
+	}
+	.production .prod .foto {
+	/*	height: 325px;*/
+		width: 19%;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 75px;
+		height: 170px;
+	}
+	.production .prod .discription p {
+		font-size: 16px;
+	}
+	.OurService .picture {
+		display:inline-block;
+		width: 24%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.OurService .infografic .price-label img {
+		width: 60%;
+	}
+	.OurService img {
+		width: 55%;
+		margin-bottom: 50px;
+	}
+	.OurService .infografic p {
+		font-size: 16px;
+	}
+	.production .prod .discription {
+		padding: 0;
+		border-spacing: 5px;
+		text-align: left;
+		width: 37%;
+	}
+	.production .price {
+		/* height: 125px; */
+		/* border: 10px solid #F48123; */
+		/* border-radius: 100px; */
+		padding: 20px 0px;
+	}
+	.production .price p{
+		margin: 0px;
+		font-size: 44px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.OurService .infografic div .pict{
+	height: 170px;
+	}
+	#toTop {
+		width: 78px;
+		text-align: center;
+		padding: 5px;
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		cursor: pointer;
+		display: none;
+		color: #333;
+		font-family: verdana;
+		font-size: 11px;
+	}
+	#toTop .fa-arrow-circle-o-up {
+		color: #F48123;
+		opacity: 0.8;
+		font-size: 65px;
+	}
+	#toOrderBy {
+		width: 220px;
+		text-align: center;
+		padding: 8px 5px;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		display: none;
+		font-family: verdana;
+		font-size: 15px;
+		background: #FAFAFA;
+		border: 1px solid #F3F3F3;
+		opacity: 0.8;
+	}
+}
+
+@media (max-width: 1267px) {
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 4px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		height: 575px;
+		width: 80%;
+		margin: 0 auto;
+		background-position-y: -60px;
+	}
+}
+
+@media (max-width: 1257px) {
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 4px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		margin: 0 auto;
+		width: 80%;
+		height: 575px;
+		background-position-y: 0px;
+	}
+}
+@media (max-width: 1203px) {
+	.main-menu .phones p {
+		font-size: 18px;
+		margin: 0px;
+	}
+	.main-menu .phones .phoneUs {
+		font-size: 16px;
+		margin: 0px;
+	}
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 4px;
+	}
+	.content .menu {
+		margin: 0px 10px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		height: 575px;
+		width: 80%;
+		margin: 0 auto;
+		background-position-y: 0px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 54px;
+		text-align: center;
+		position: relative;
+		top: 200px;
+		padding: 0px 100px;
+	}
+	.production .prod .price {
+		/* height: 110px; */
+		/* border: 10px solid #F48123; */
+		/* border-radius: 100px; */
+		padding: 14px 0px;
+		width: 25%;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 65px;
+		height: 170px;
+	}
+	.map-section .contact-field p {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.map-section #map {
+		height: 200px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.map-section .contact-field {
+		display: inline-block;
+		width: 60%;
+		height: 200px;
+		vertical-align: text-bottom;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 16px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 16px;
+		margin: 0px;
+	}
+	.footer .content-1 .propose {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .contacts {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .upper {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 18px;
+	}
+}
+@media (max-width: 1161px) {
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 4px;
+	}
+	.content .menu {
+		margin: 0px 10px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 50px;
+		text-align: center;
+		position: relative;
+		top: 200px;
+		padding: 0px 30px;
+	}
+	.production .prod .price {
+		/* height: 110px; */
+		/* border: 10px solid #F48123; */
+		/* border-radius: 100px; */
+		padding: 15px 0px;
+		width: 25%;
+	}
+}
+@media (max-width: 1137px) {
+	.logo-Global {
+		width: 30%;
+		margin: 20px 40px;
+	}
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 0px;
+	}
+	.content .menu {
+		margin: 0px 10px;
+	}
+	.OurService .infografic div .pict {
+		height: 150px;
+	}
+	.production .prod .foto {
+	/*	height: 309px;*/
+		width: 19%;
+	}
+}
+@media (max-width: 1094px) {
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 0px;
+	}
+	.content .menu {
+		margin: 0px 5px;
+	}
+	.production .prod .foto {
+		/*height: 310px;*/
+		width: 19%;
+	}
+}
+@media (max-width: 1090px) {
+	.logo-Global {
+		width: 30%;
+		margin: 20px 40px;
+	}
+	.main-menu .propose p {
+		margin: 0px;
+		font-size: 18px;
+	}
+	.main-menu .phones p {
+		font-size: 18px;
+		margin: 0px;
+	}
+	.main-menu .phones .phoneUs {
+		font-size: 18px;
+		margin: 0px;
+	}
+	.content .menu a {
+		font-size: 16px;
+	}
+	.map-section .contact-field p {
+		font-size: 17px;
+		margin-bottom: 5px;
+	}
+}
+@media (max-width: 1050px) {
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 39px;
+		text-align: center;
+		position: relative;
+		top: 175px;
+		padding: 0px 30px;
+	}
+	.production .prod .foto {
+	/*	height: 300px;*/
+		width: 19%;
+	}
+	.production .prod .price {
+		/* height: 110px; */
+		/* border: 10px solid #F48123; */
+		/* border-radius: 100px; */
+		padding: 16px 0px;
+		width: 25%;
+	}
+	.production .price p {
+		margin: 0px;
+		font-size: 38px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 48px;
+		height: 170px;
+	}
+}
+@media (max-width: 1024px) {
+	.main-menu div{
+		display: inline-block;
+		width: 34%;
+	}
+	.logo-Global {
+		width: 30%;
+		margin: 20px 25px;
+	}
+	.logo-Global a>img {
+		width: 100%;
+	}
+	.main-menu .propose{
+		width: 25%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .propose p{
+		margin: 0px;
+		font-size: 16px;
+	}
+	.main-menu .phones .phoneUs {
+		font-size: 13px;
+		margin: 0px;
+	}
+	.main-menu .contacts{
+		width: 30%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts div{
+		margin: 0px 0px;
+		vertical-align: middle;
+	}
+	.main-menu .contacts .f{
+		width: 30%;
+	}
+	.main-menu .contacts .phones{
+		width: 50%;
+	}
+	.main-menu .phones p{
+		font-size: 15px;
+		margin: 0px;
+	}
+	div .fa {
+		font-size: 92px;
+		color: #FFB035;
+	}
+	.content .menu {
+		display: inline-block;
+		list-style: none;
+		margin: 0px 0px;
+		padding: 0;
+	}
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 5px;
+	}
+	.content .menu a {
+		font-size: 15px;
+		padding: 6px 20px;
+	}
+	.banner{
+		height: 420px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 390px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 37px;
+		text-align: center;
+		position: relative;
+		top: 120px;
+		padding: 0px 30px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		width: 80%;
+		margin: 0 auto;
+		background-position-y: -100px;
+		height: 390px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		margin: 0 auto;
+		width: 80%;
+		background-position-y: -100px;
+		height: 390px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 390px;
+	}
+	.production .prod .foto {
+		/*height: 275px;*/
+		width: 20%;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 40px;
+		height: 170px;
+	}
+	.production .prod .discription p {
+		font-size: 14px;
+	}
+	.OurService .picture {
+		display:inline-block;
+		width: 24%;
+		text-align: center;
+		height: 225px;
+	}
+	.OurService .infografic .price-label img {
+		width: 60%;
+		vertical-align: top;
+	}
+	.OurService img {
+		width: 55%;
+		margin-bottom: 50px;
+	}
+	.OurService .infografic p {
+		font-size: 15px;
+		text-align: center;
+		margin: 0px;
+	}
+	.production .prod .price {
+		/* height: 85px; */
+		width: 20%;
+		/* border: 6px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 16px 0px;
+	}
+	.production .price p{
+		margin: 0px;
+		font-size: 25px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.OurService {
+		background: #ffffff;
+		border-bottom: 15px solid #006DE0;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 34px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+	.map-section .contact-field p {
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	.map-section #map {
+		height: 150px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.map-section .contact-field {
+		display: inline-block;
+		width: 60%;
+		height: 150px;
+		vertical-align: text-bottom;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 14px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer .content-1 .propose {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .contacts {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.map-section .contact-field .contacts .fa {
+		font-size: 60px;
+		display: inline-block;
+		width: 20%;
+	}
+	#toOrderBy {
+		width: 160px;
+		text-align: center;
+		padding: 8px 5px;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		display: none;
+		font-family: verdana;
+		font-size: 13px;
+		background: #FAFAFA;
+		border: 1px solid #F3F3F3;
+		opacity: 0.8;
+	}
+}
+@media (max-width: 982px) {
+	.logo-Global {
+		width: 30%;
+		margin: 20px 16px;
+	}
+}
+@media (max-width: 950px) {
+	.map-section .contact-field p {
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+}
+@media (max-width: 933px) {
+	.main-menu .propose p {
+		margin: 0px;
+		font-size: 16px;
+	}
+	.main-menu .phones p {
+		font-size: 14px;
+		margin: 0px;
+	}
+	.content .menu a {
+		font-size: 15px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		width: 80%;
+		margin: 0 auto;
+		background-position-y: 0px;
+		height: 390px;
+		background-repeat: no-repeat;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		margin: 0 auto;
+		width: 80%;
+		background-position-y: 0px;
+		height: 390px;
+		background-repeat: no-repeat;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 390px;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (max-width: 897px) {
+	.main-menu .propose p {
+		margin: 0px;
+		font-size: 15px;
+	}
+	.main-menu .phones p {
+		font-size: 14px;
+		margin: 0px;
+	}
+	.main-menu .phones .phoneUs {
+		font-size: 12px;
+		margin: 0px;
+	}
+	.content .menu a {
+		font-size: 14px;
+	}
+	.map-section .contact-field p {
+		font-size: 16px;
+		margin-bottom: 5px;
+		display: inline-block;
+	}
+	.map-section #map {
+		height: 150px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.map-section .contact-field {
+		display: inline-block;
+		width: 60%;
+		height: 150px;
+		vertical-align: text-bottom;
+	}
+	.contact-field .contacts {
+		display: inline-block;
+		width: 49%;
+	}
+	.map-section .contact-field .address, .map-section .contact-field .contacts {
+		display: inline-block;
+		width: 100%;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 14px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer .content-1 .propose {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .contacts {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.map-section .contact-field .contacts .fa {
+		font-size: 60px;
+		display: inline-block;
+		width: 20%;
+	}
+	#toTop {
+		width: 70px;
+		text-align: center;
+		padding: 5px;
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		cursor: pointer;
+		display: none;
+		color: #333;
+		font-family: verdana;
+		font-size: 11px;
+	}
+	#toTop .fa-arrow-circle-o-up {
+		color: #F48123;
+		opacity: 0.8;
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 866px) {
+	.content .menu a {
+		font-size: 14px;
+		padding: 6px 10px;
+	}
+	.production .prod .foto {
+	/*	height: 260px;*/
+		width: 19%;
+	}
+	.production .prod .price {
+		/* height: 65px; */
+		/* border: 6px solid #F48123; */
+		/* border-radius: 100px; */
+		padding: 11px 0px;
+		width: 20%;
+	}
+	.production .price p {
+		margin: 0px;
+		font-size: 24px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.production .prod div {
+		display: inline-block;
+		width: 22%;
+		vertical-align: middle;
+		margin: 0px 20px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 26px;
+		height: 170px;
+	}
+}
+
+@media (max-width: 841px){
+	.main-menu .propose {
+		width: 25%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts {
+		width: 35%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts .phones{
+		width: 65%;
+	}
+	.main-menu .contacts .f {
+		width: 20%;
+	}
+	.main-menu .phones p {
+		font-size: 14px;
+		margin: 0px;
+	}
+	.main-menu .propose p {
+		margin: 0px;
+		font-size: 14px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 35px;
+		text-align: center;
+		position: relative;
+		top: 135px;
+		padding: 0px 30px;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 32px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 810px) {
+	.production .prod .foto {
+		/*height: 260px;*/
+		width: 19%;
+	}
+	.production .prod .price {
+		/* height: 65px; */
+		/* border: 6px solid #F48123; */
+		/* border-radius: 100px; */
+		padding: 11px 0px;
+		width: 19%;
+	}
+	.production .price p {
+		margin: 0px;
+		font-size: 24px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 805px) {
+	.main-menu div{
+		display: inline-block;
+		width: 30%;
+	}
+	.logo-Global {
+		width: 30%;
+		margin: 20px 25px;
+	}
+	.logo-Global a>img {
+		width: 100%;
+	}
+	.main-menu .propose{
+		width: 25%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .propose p{
+		margin: 0px;
+		font-size: 14px;
+	}
+	.main-menu .contacts{
+		width: 30%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts div{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 20%;
+	}
+	.main-menu .contacts .phones{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 55%;
+	}
+	div .fa {
+		font-size: 80px;
+		color: #FFB035;
+	}
+	.main-menu .phones p{
+		font-size: 13px;
+		margin: 0px;
+	}
+	.main-menu .phones .phoneUs {
+		font-size: 13px;
+		margin: 0px;
+	}
+	.content .menu {
+		display: inline-block;
+		list-style: none;
+		margin: 0px 0px;
+		padding: 0;
+	}
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 2px;
+	}
+	.content .menu a {
+		font-size: 14px;
+		padding: 6px 10px;
+	}
+	.banner{
+		height: 390px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 350px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 33px;
+		text-align: center;
+		position: relative;
+		top: 110px;
+		padding: 0px 30px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 350px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		margin: 0 auto;
+		width: 80%;
+		height: 350px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 350px;
+	}
+	.production .prod div {
+		display: inline-block;
+		width: 25%;
+		vertical-align: middle;
+		padding: 0px 25px;
+		margin: 0px;
+	}
+	.production .prod .foto {
+	/*	height: 225px;*/
+		width: 33%;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 40px;
+		height: 130px;
+	}
+	.production .prod .discription p {
+		font-size: 13px;
+	}
+	.OurService {
+		background: #ffffff;
+		border-bottom: 15px solid #006DE0;
+	}
+	.OurService .picture {
+		display:inline-block;
+		width: 24%;
+		text-align: center;
+		height: 225px;
+	}
+	.OurService .infografic .price-label img {
+		width: 60%;
+		vertical-align: top;
+	}
+	.OurService img {
+		width: 55%;
+		margin-bottom: 50px;
+	}
+	.OurService .infografic p {
+		font-size: 14px;
+		text-align: center;
+		margin: 0px 5px;
+	}
+	.production .prod .price {
+		/* height: 70px; */
+		width: 20%;
+		/* border: 6px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 14px 0px;
+	}
+	.production .price p{
+		margin: 0px;
+		font-size: 22px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 28px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+	#toOrderBy {
+		width: 140px;
+		text-align: center;
+		padding: 8px 5px;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		display: none;
+		font-family: verdana;
+		font-size: 12px;
+		background: #FAFAFA;
+		border: 1px solid #F3F3F3;
+		opacity: 0.8;
+	}
+}
+
+@media (max-width: 769px) {
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 75px;
+		height: 130px;
+	}
+	.OurService .infografic p {
+		font-size: 12px;
+		text-align: center;
+		margin: 0px 5px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 31px;
+		text-align: center;
+		position: relative;
+		top: 140px;
+		padding: 0px 40px;
+	}
+	.OurService .infografic div .pict {
+		height: 130px;
+	}
+	.map-section .contact-field p {
+		font-size: 16px;
+		margin-bottom: 5px;
+		display: inline-block;
+	}
+	.map-section #map {
+		height: 150px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.map-section .contact-field {
+		display: inline-block;
+		width: 60%;
+		height: 150px;
+		vertical-align: text-bottom;
+	}
+	.contact-field .contacts {
+		display: inline-block;
+		width: 49%;
+	}
+	.map-section .contact-field .address, .map-section .contact-field .contacts {
+		display: inline-block;
+		width: 100%;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 14px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer .content-1 .propose {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .contacts {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.map-section .contact-field .contacts .fa {
+		font-size: 60px;
+		display: inline-block;
+		width: 20%;
+	}
+	.footer .contacts div .fa{
+		display: none;
+	}
+	#toTop {
+		width: 57px;
+		text-align:center;
+		padding:5px;
+		position:fixed;
+		bottom: 20px;
+		right: 27px;
+		cursor:pointer;
+		display:none;
+		color:#333;
+		font-family:verdana;
+		font-size:11px;
+	}
+}
+
+@media (max-width: 724px){
+	.main-menu div {
+		display: inline-block;
+		width: 30%;
+	}
+	.main-menu .propose {
+		width: 25%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts {
+		width: 35%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.content .menu a {
+		font-size: 13px;
+		padding: 6px 7px;
+	}
+	div .fa {
+		font-size: 75px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 29px;
+		text-align: center;
+		position: relative;
+		top: 140px;
+		padding: 0px 50px;
+	}
+	.production .prod .foto {
+		/*height: 225px;*/
+		width: 32%;
+	}
+	.production .prod .price {
+		/* height: 55px; */
+		width: 20%;
+		/* border: 6px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 9px 0px;
+	}
+	.production .price p {
+		margin: 0px;
+		font-size: 20px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 680px){
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 27px;
+		text-align: center;
+		position: relative;
+		top: 140px;
+		padding: 0px 50px;
+	}
+	.production .prod .foto {
+		/*height: 204px;*/
+		width: 29%;
+	}
+	.production .prod .price {
+		/* height: 55px; */
+		width: 20%;
+		/* border: 6px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 9px 0px;
+	}
+	.production .price p {
+		margin: 0px;
+		font-size: 20px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.production .prod .discription {
+		padding: 0;
+		border-spacing: 5px;
+		text-align: left;
+		width: 47%;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 25px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 45px;
+		height: 170px;
+	}
+}
+
+@media (max-width: 657px){
+	.main-menu .phones p {
+		font-size: 13px;
+		margin: 0px;
+	}
+	.main-menu .propose p {
+		margin: 0px;
+		font-size: 13px;
+	}
+	.content .menu a {
+		font-size: 13px;
+		padding: 6px 6px;
+	}
+	div .fa {
+		font-size: 75px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 25px;
+		text-align: center;
+		position: relative;
+		top: 140px;
+		padding: 0px 50px;
+	}
+	.production .prod .foto {
+		/*height: 175px;*/
+		width: 29%;
+	}
+	.production .prod .price {
+		/* height: 50px; */
+		width: 20%;
+		/* border: 5px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 6px 0px;
+	}
+	.production .price p {
+		margin: 0px;
+		font-size: 20px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.production .prod .discription {
+		padding: 0;
+		border-spacing: 5px;
+		text-align: left;
+		width: 48%;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 25px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+	.map-section .contact-field p {
+		font-size: 15px;
+		margin-bottom: 0px;
+		display: inline-block;
+	}
+	.map-section #map {
+		height: 150px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.map-section .contact-field {
+		display: inline-block;
+		width: 49%;
+		height: 150px;
+		vertical-align: text-bottom;
+	}
+	.contact-field .contacts {
+		display: inline-block;
+		width: 49%;
+	}
+	.map-section .contact-field .address, .map-section .contact-field .contacts {
+		display: inline-block;
+		width: 100%;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 14px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer .content-1 .propose {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .contacts {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.map-section .contact-field .contacts .fa {
+		font-size: 46px;
+		display: none;
+		width: 20%;
+	}
+	.footer .contacts div .fa{
+		display: none;
+	}
+	.footer .content-1 .upper {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 16px;
+	}
+}
+@media (max-width: 618px){
+	.content .menu a {
+		font-size: 12px;
+		padding: 6px 6px;
+	}
+}
+@media (max-width: 612px){
+	.main-menu .phones .phoneUs {
+		font-size: 12px;
+		margin: 0px;
+	}
+	.main-menu .phones p {
+		font-size: 13px;
+		margin: 0px;
+	}
+	.main-menu .propose p {
+		margin: 0px;
+		font-size: 13px;
+	}
+	.content .menu a {
+		font-size: 12px;
+		padding: 6px 6px;
+	}
+	div .fa {
+		font-size: 75px;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 23px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 35px;
+		height: 170px;
+	}
+}
+
+@media (max-width: 601px) {
+	.main-menu div{
+		display: inline-block;
+		width: 40%;
+	}
+	.logo-Global {
+		width: 30%;
+		margin: 0px;
+		margin-top: 10px;
+	}
+	.logo-Global a>img {
+		width: 100%;
+	}
+	.main-menu .propose{
+		width: 40%;
+		text-align: center;
+		vertical-align: middle;
+		float: right;
+		margin-top: 20px;
+	}
+	.main-menu .phones p, .main-menu .phones .phoneUs{
+		font-size: 13px;
+		padding: 0px 10px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.main-menu .propose p{
+		font-size: 13px;
+	}
+	.main-menu .propose .we_are_working{
+/*		display: none;*/
+	}
+	.main-menu .contacts{
+		width: 100%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts div{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 20%;
+		display: none;
+	}
+	.main-menu .contacts .phones{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 50%;
+		display: inline;
+	}
+	.secMenu{
+		display: none;
+	}
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 5px;
+	}
+	.content .menu a {
+		font-size: 15px;
+		padding: 6px 10px;
+	}
+	.banner{
+		height: 270px;
+		margin-top: 10px;
+		border-bottom: 10px solid #006DE0;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 240px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 24px;
+		text-align: center;
+		position: relative;
+		top: 65px;
+		padding: 0px 50px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 240px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		margin: 0 auto;
+		width: 80%;
+		height: 240px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 240px;
+	}
+	.production .prod div {
+		display: inline-block;
+		width: 25%;
+		vertical-align: middle;
+		padding: 0px 25px;
+		margin: 0px;
+	}
+	.production .prod .foto {
+		/*height: 185px;*/
+		width: 23%;
+		padding: 0px 5px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 50px;
+		height: 125px;
+	}
+	.production .prod .discription {
+		padding: 0;
+		text-align: left;
+		width: 63%;
+	}
+	.production .prod .discription p {
+		font-size: 12px;
+	}
+	.OurService {
+		background: #ffffff;
+		border-bottom: 10px solid #006DE0;
+	}
+	.OurService .infografic {
+		margin-top: 45px;
+		padding-bottom: 45px;
+	}
+	.OurService .picture {
+		display:inline-block;
+		width: 40%;
+		margin: 0 4%;
+		text-align: center;
+		height: 130px;
+	}
+	.OurService .infografic .price-label img {
+		width: 50%;
+		vertical-align: middle;
+		margin: 0px;
+	}
+	.OurService img {
+		width: 44%;
+		margin: 0px;
+		vertical-align: middle;
+	}
+	.OurService .infografic p {
+		font-size: 12px;
+		text-align: center;
+		margin: 0px 5px;
+	}
+	.production .prod .price {
+		/* height: 30px; */
+		width: 25%;
+		/* border: 4px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 0px 0px;
+	}
+	.production .price p{
+		margin: 0px;
+		font-size: 15px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.production li {
+		display: inline-block;
+		width: 100%;
+		max-height: 450px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 20px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+	.section-partners .partner-carousel {
+		padding: 10px 0px;
+		padding-bottom: 10px;
+		height: 150px;
+	}
+	.OurService .infografic div .pict{
+		height: 70%;
+		vertical-align: middle;
+	}
+	.map-section .content-1{
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 40px;
+	}
+	.map-section .contact-field p {
+		font-size: 15px;
+		display: inline-block;
+	}
+	.map-section .write-fild {
+		display: inline-block;
+		width: 48%;
+	}
+	.map-section #map {
+		height: 185px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 10px;
+	}
+	.map-section .contact-field {
+		display: inline-block;
+		width: 49%;
+		height: 200px;
+		vertical-align: text-bottom;
+	}
+	.contact-field .contacts {
+		display: inline-block;
+		width: 49%;
+	}
+	.map-section .contact-field .address, .map-section .contact-field .contacts {
+		display: inline-block;
+		width: 100%;
+	}
+	.footer {
+		background: #fafafa;
+		border-bottom: 15px solid #006DE0;
+		padding: 20px 0px;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 14px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 15px;
+		margin: 0px;
+	}
+	.footer .content-1 .propose {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .contacts {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.map-section .contact-field .contacts .fa {
+		font-size: 46px;
+		display: none;
+		width: 20%;
+	}
+	.footer .contacts div .fa{
+		display: none;
+	}
+	.footer .content-1 .upper {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 15px;
+	}
+	#toTop {
+		width: 47px;
+		text-align:center;
+		padding:5px;
+		position:fixed;
+		bottom: 20px;
+		right: 23px;
+		cursor:pointer;
+		display:none;
+		color:#333;
+		font-family:verdana;
+		font-size: 11px;
+	}
+	#toOrderBy {
+		width: 134px;
+		text-align: center;
+		padding: 8px 5px;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		display: none;
+		font-family: verdana;
+		font-size: 11px;
+		background: #FAFAFA;
+		border: 1px solid #F3F3F3;
+		opacity: 0.8;
+	}
+}
+@media (max-width: 570px) {
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 44px;
+		height: 125px;
+	}
+}
+@media (max-width: 550px) {
+	.main-menu .phones p, .main-menu .phones .phoneUs{
+		font-size: 12px;
+		padding: 0px 10px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 22px;
+		text-align: center;
+		position: relative;
+		top: 65px;
+		padding: 0px 25px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 40px;
+		height: 125px;
+	}
+	.map-section .contact-field .contacts .fa {
+		font-size: 46px;
+		display: none;
+		width: 20%;
+	}
+	.map-section .contact-field p {
+		font-size: 14px;
+		display: inline-block;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 13px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 13px;
+		margin: 0px;
+	}
+	.footer .content-1 .propose {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .contacts {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .contacts div .fa{
+		display: none;
+	}
+	.footer .content-1 .upper {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 480px) {
+	.main-menu .phones .phoneUs{
+		display: none;
+	}
+	.OurService .picture {
+		display: inline-block;
+		width: 40%;
+		margin: 0 4%;
+		text-align: center;
+		height: 130px;
+	}
+	.OurService .infografic div .pict {
+		height: 56%;
+		vertical-align: middle;
+	}
+	.OurService .infografic .price-label img {
+		width: 50%;
+		vertical-align: middle;
+		margin: 0px;
+	}
+	.OurService .infografic p {
+		font-size: 12px;
+		text-align: center;
+		margin: 0px 5px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 110px;
+		height: 125px;
+	}
+	.production .prod .foto {
+		/*height: 155px;*/
+		width: 23%;
+		padding: 0px 5px;
+	}
+	.map-section .content-1, .footer .content-1 {
+		padding-top: 15px;
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 450px) {
+	.footer {
+		background: #fafafa;
+		border-bottom: 15px solid #006DE0;
+		padding: 10px 0px;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 13px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 13px;
+		margin: 0px;
+	}
+	.footer .content-1 .propose {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .contacts {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.map-section .contact-field .contacts .fa {
+		font-size: 46px;
+		display: none;
+		width: 20%;
+	}
+	.footer .contacts div .fa{
+		display: none;
+	}
+	.footer .content-1 .upper {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 13px;
+	}
+	#toOrderBy {
+		width: 109px;
+		text-align: center;
+		padding: 8px 5px;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		display: none;
+		font-family: verdana;
+		font-size: 9px;
+		background: #FAFAFA;
+		border: 1px solid #F3F3F3;
+		opacity: 0.8;
+	}
+}
+@media (max-width: 437px) {
+	.main-menu div{
+		display: inline-block;
+		width: 40%;
+	}
+	.logo-Global {
+		width: 30%;
+		margin: 0px;
+		margin-top: 10px;
+	}
+	.logo-Global a>img {
+		width: 100%;
+	}
+	.main-menu .propose {
+		width: 40%;
+		text-align: center;
+		vertical-align: middle;
+		float: right;
+		margin-top: 15px;
+}
+	.main-menu .propose p{
+		margin: 0px;
+		font-size: 10px;
+	}
+	.main-menu .contacts{
+		width: 100%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts div{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 20%;
+		display: none;
+	}
+	.main-menu .contacts .phones{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 50%;
+		display: inline;
+	}
+	.main-menu .phones p{
+		font-size: 12px;
+		padding: 0px 20px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.content-1 {
+		width: 75%;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+	.content .menu li {
+		display: inline-block;
+		margin: 2px 5px;
+	}
+	.content .menu a {
+		font-size: 15px;
+		padding: 6px 10px;
+	}
+	.banner{
+		height: 180px;
+		margin-top: 10px;
+		border-bottom: 5px solid #006DE0;
+		padding-bottom: 10px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 160px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 16px;
+		text-align: center;
+		position: relative;
+		top: 50px;
+		padding: 0px 25px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 160px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		background-position-y:;
+		margin: 0 auto;
+		width: 80%;
+		height: 160px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 160px;
+	}
+	.production {
+		background: #ffffff;
+		border-bottom: 5px solid #006DE0;
+	}
+	.production .prod div {
+		display: inline-block;
+		width: 25%;
+		vertical-align: middle;
+		padding: 0px 25px;
+		margin: 0px;
+	}
+	.production .prod .foto {
+		/*height: 180px;*/
+		width: 33%;
+		padding: 0px 10px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 110px;
+		height: 90px;
+	}
+	.production .prod .discription {
+		padding: 0;
+		text-align: left;
+		width: 63%;
+	}
+	.production .prod .discription p {
+		font-size: 10px;
+	}
+	.OurService {
+		background: #ffffff;
+		border-bottom: 5px solid #006DE0;
+	}
+	.OurService .infografic {
+		margin-top: 15px;
+		padding-bottom: 0px;
+	}
+	.OurService .picture {
+		display:inline-block;
+		width: 38%;
+		text-align: center;
+		height: 110px;
+	}
+	.OurService .infografic .price-label img {
+		width: 35%;
+		vertical-align: middle;
+		margin: 0px;
+	}
+	.OurService img {
+		width: 35%;
+		margin: 0px;
+		vertical-align: middle;
+	}
+	.OurService .infografic p {
+		font-size: 9px;
+		text-align: center;
+		margin: 0px 3px;
+	}
+	.production .prod .price {
+		/* height: 30px; */
+		width: 25%;
+		/* border: 4px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 0px 0px;
+	}
+	.production .price p{
+		margin: 0px;
+		font-size: 15px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 16px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+	.section-partners .partner-carousel {
+		padding: 0px 0px;
+		padding-bottom: 10px;
+		height: 115px;
+	}
+	.OurService .infografic div .pict{
+		height: 55%;
+	}
+	.OurService .infografic div .txt{
+
+	}
+	.section-partners {
+		background: #ffffff;
+		border-bottom: 5px solid #006DE0;
+	}
+}
+
+@media (max-width: 422px){
+	.OurService .picture {
+		display: inline-block;
+		width: 35%;
+		margin: 0 6%;
+		text-align: center;
+		height: 110px;
+	}
+}
+
+@media (max-width: 416px) {
+
+	.main-menu .propose p{
+		margin: 0px;
+		font-size: 10px;
+	}
+	.main-menu .contacts{
+		width: 100%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts div{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 20%;
+		display: none;
+	}
+	.main-menu .contacts .phones{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 50%;
+		display: inline;
+	}
+	.main-menu .phones p{
+		font-size: 11px;
+		padding: 0px 20px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.content-1 {
+		width: 75%;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+	.banner{
+		height: 180px;
+		margin-top: 10px;
+		border-bottom: 5px solid #006DE0;
+		padding-bottom: 10px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 160px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 16px;
+		text-align: center;
+		position: relative;
+		top: 50px;
+		padding: 0px 25px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 160px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		margin: 0 auto;
+		width: 80%;
+		height: 160px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 160px;
+	}
+	.production .prod div {
+		display: inline-block;
+		width: 25%;
+		vertical-align: middle;
+		padding: 0px 25px;
+		margin: 0px;
+	}
+	.production .prod .foto {
+		/*height: 160px;*/
+		width: 33%;
+		padding: 0px 10px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 110px;
+		height: 90px;
+	}
+	.production .prod .discription {
+		padding: 0;
+		text-align: left;
+		width: 63%;
+	}
+	.production .prod .discription p {
+		font-size: 9px;
+	}
+	.OurService .infografic {
+		margin-top: 15px;
+		padding-bottom: 0px;
+	}
+	.OurService .picture {
+		display:inline-block;
+		text-align: center;
+		height: 110px;
+		width: 35%;
+		margin: 0 6%;
+	}
+	.OurService .infografic .price-label img {
+		width: 35%;
+		vertical-align: middle;
+		margin: 0px;
+	}
+	.OurService .infografic p {
+		font-size: 9px;
+		text-align: center;
+		margin: 0px 3px;
+	}
+	.production .prod .price {
+		/* height: 30px; */
+		width: 25%;
+		/* border: 4px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 0px 0px;
+	}
+	.production .price p{
+		margin: 0px;
+		font-size: 15px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 16px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+	.section-partners .partner-carousel {
+		padding: 0px 0px;
+		padding-bottom: 10px;
+		height: 115px;
+	}
+	.OurService .infografic div .pict{
+		height: 55%;
+	}
+	.map-section .contact-field p {
+		font-size: 13px;
+		display: inline-block;
+	}
+	.footer .content-1 .upper {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 12px;
+	}
+}
+
+
+@media (max-width: 386px) {
+
+	.main-menu .propose p{
+		margin: 0px;
+		font-size: 10px;
+	}
+	.main-menu .contacts{
+		width: 100%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts div{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 20%;
+		display: none;
+	}
+	.main-menu .contacts .phones{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 50%;
+		display: inline;
+	}
+	.main-menu .phones p{
+		font-size: 11px;
+		padding: 0px 20px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.content-1 {
+		width: 75%;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+	.banner{
+		height: 180px;
+		margin-top: 10px;
+		border-bottom: 5px solid #006DE0;
+		padding-bottom: 10px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 160px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 16px;
+		text-align: center;
+		position: relative;
+		top: 50px;
+		padding: 0px 25px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 160px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		margin: 0 auto;
+		width: 80%;
+		height: 160px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 160px;
+	}
+	.production .prod div {
+		display: inline-block;
+		width: 25%;
+		vertical-align: middle;
+		padding: 0px 25px;
+		margin: 0px;
+	}
+	.production .prod .foto {
+		/*height: 160px;*/
+		width: 30%;
+		padding: 0px 0px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 100px;
+		height: 85px;
+	}
+	.production .prod .discription {
+		padding: 0;
+		text-align: left;
+		width: 68%;
+	}
+	.production .prod .discription p {
+		font-size: 9px;
+	}
+	.OurService .infografic {
+		margin-top: 15px;
+		padding-bottom: 0px;
+	}
+	.OurService .picture {
+		display:inline-block;
+		text-align: center;
+		height: 110px;
+		width: 49%;
+		margin: 0 0;
+	}
+	.OurService .infografic .price-label img {
+		width: 35%;
+		vertical-align: middle;
+		margin: 0px;
+	}
+	.OurService .infografic p {
+		font-size: 9px;
+		text-align: center;
+		margin: 0px 3px;
+	}
+	.production .prod .price {
+		/* height: 24px; */
+		width: 25%;
+		/* border: 4px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 0px 0px;
+	}
+	.production .price p{
+		margin: 0px;
+		font-size: 13px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 13px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 14px;
+	}
+	.section-partners .partner-carousel {
+		padding: 0px 0px;
+		padding-bottom: 10px;
+		height: 115px;
+	}
+	.OurService .infografic div .pict{
+		height: 55%;
+	}
+	.map-section .contact-field p {
+		font-size: 12px;
+		display: inline-block;
+	}
+	.map-section #map {
+		height: 185px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 10px;
+	}
+	.map-section .contact-field {
+		display: inline-block;
+		width: 49%;
+		height: 200px;
+		vertical-align: text-bottom;
+	}
+	.contact-field .contacts {
+		display: inline-block;
+		width: 49%;
+	}
+	.map-section .contact-field .address, .map-section .contact-field .contacts {
+		display: inline-block;
+		width: 100%;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 13px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 12px;
+		margin: 0px;
+	}
+	.footer .content-1 .propose {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footer .content-1 .contacts {
+		width: 32%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.map-section .contact-field .contacts .fa {
+		font-size: 46px;
+		display: none;
+		width: 20%;
+	}
+	.footer .contacts div .fa{
+		display: none;
+	}
+	.footer .content-1 .upper {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 362px) {
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 90px;
+		height: 85px;
+	}
+	.main-menu .phones p {
+		font-size: 10px;
+		padding: 0px 20px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.map-section .contact-field p {
+		font-size: 11px;
+		display: inline-block;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 12px;
+	}
+	.footer .content-1 .upper {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 11px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 11px;
+		margin: 0px;
+	}
+}
+@media (max-width: 342px) {
+	.main-menu .phones p {
+		font-size: 10px;
+		padding: 0px 10px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+}
+@media (max-width: 325px) {
+
+	.main-menu .propose p{
+		margin: 0px;
+		font-size: 10px;
+	}
+	.main-menu .contacts{
+		width: 100%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.main-menu .contacts div{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 20%;
+		display: none;
+	}
+	.main-menu .contacts .phones{
+		margin: 0px 0px;
+		vertical-align: middle;
+		width: 50%;
+		display: inline;
+	}
+	.main-menu .phones p{
+		font-size: 10px;
+		padding: 0px 12px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.main-menu .phones p {
+		font-size: 10px;
+		padding: 0px 12px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.content-1 {
+		width: 75%;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+	.banner{
+		height: 135px;
+		margin-top: 10px;
+		border-bottom: 5px solid #006DE0;
+		padding-bottom: 10px;
+	}
+	.banner .owl-carousel .owl-wrapper-outer {
+		height: 120px;
+	}
+	.banner #owl-demo .item .above-banner h1 {
+		color: #ffffff;
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 14px;
+		text-align: center;
+		position: relative;
+		top: 24px;
+		padding: 0px 25px;
+	}
+	.banner #owl-demo .banner1 {
+		background-image: url(../images/banner1.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 120px;
+		background-position-y: -45px;
+	}
+	.banner #owl-demo .banner2 {
+		background-image: url(../images/banner2.jpg);
+		background-position-y: -45px;
+		margin: 0 auto;
+		width: 80%;
+		height: 120px;
+	}
+	.banner #owl-demo .banner3 {
+		background-image: url(../images/banner3.jpg);
+		width: 80%;
+		margin: 0 auto;
+		height: 120px;
+	}
+	.production .prod div {
+		display: inline-block;
+		width: 25%;
+		vertical-align: middle;
+		padding: 0px 25px;
+		margin: 0px;
+	}
+	.production .prod .foto {
+		/*height: 130px;*/
+		width: 30%;
+		padding: 0px 0px;
+	}
+	.section-partners .content-1 .owl-carousel .owl-wrapper .owl-item div {
+		padding: 0px 75px;
+		height: 85px;
+	}
+	.production .prod .discription {
+		padding: 0;
+		text-align: left;
+		width: 68%;
+	}
+	.production .prod .discription p {
+		font-size: 9px;
+	}
+	.OurService .infografic {
+		margin-top: 15px;
+		padding-bottom: 0px;
+	}
+	.OurService .picture {
+		display:inline-block;
+		width: 49%;
+		text-align: center;
+		height: 99px;
+	}
+	.OurService .infografic .price-label img {
+		width: 40%;
+		vertical-align: middle;
+		margin: 0px;
+	}
+	.OurService .infografic p {
+		font-size: 9px;
+		text-align: center;
+		margin: 0px 3px;
+	}
+	.production .prod .price {
+		/* height: 25px; */
+		width: 25%;
+		/* border: 3px solid #F48123; */
+		/* border-radius: 40px; */
+		padding: 0px 0px;
+	}
+	.production .price p{
+		margin: 0px;
+		font-size: 13px;
+		text-align: center;
+		color: #F48123;
+		font-weight: bold;
+	}
+	.OurService .global-offers-H1, .production .main-about, .section-partners .title-of-block, .map-section .title-of-block {
+		text-transform: uppercase;
+		font-family: PTSerif_Caption;
+		font-size: 11px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 14px;
+	}
+	.section-partners .partner-carousel {
+		padding: 0px 0px;
+		padding-bottom: 10px;
+		height: 115px;
+	}
+	.OurService .infografic div .pict{
+		height: 55%;
+	}
+	.footer .content-1 .propose p {
+		margin: 0px;
+		font-size: 11px;
+	}
+	.footer .content-1 .upper {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 10px;
+	}
+	.footer .content-1 .phones p {
+		font-size: 10px;
+		margin: 0px;
+	}
+}
